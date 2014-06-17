@@ -1,0 +1,14 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, "6.0"
+
+target "specTest" do
+pod 'Colours', :podspec => 'https://raw.githubusercontent.com/happyjiahan/Colours/master/Colours.podspec'
+pod 'GoogleMobileAdsSdkiOS', :podspec => 'https://raw.githubusercontent.com/happyjiahan/GoogleMobileAdsSdkiOS-cocoapods/master/GoogleMobileAdsSdkiOS.podspec'
+
+pod 'ChartboostSDK'
+
+pod 'SKTUtils', :podspec => 'https://raw.githubusercontent.com/happyjiahan/SKTUtils/master/SKTUtils.podspec'
+
+end
+
+
